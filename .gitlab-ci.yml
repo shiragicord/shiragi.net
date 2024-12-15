@@ -46,8 +46,9 @@ copy-to-webserver:
     ##
     - mkdir -p ~/.ssh
     - chmod 700 ~/.ssh
-    
-    - ssh-keyscan webserver.lxd.saga >> ~/.ssh/known_hosts
+
+    - cp $SSH_KNOWN_HOSTS ~/.ssh/known_hosts
+    - chmod 600 ~/.ssh/known_hosts
   script:
     - rsync -rltv --delete dist/* shiragi@webserver.lxd.saga:~/public_html/
   artifacts:
