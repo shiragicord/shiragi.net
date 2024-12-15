@@ -1,7 +1,7 @@
 # .gitlab-ci.yml
 stages:
     - test
-    # - deploy
+    - deploy
 
 unittest-main-with-dist:
   image: node:latest
@@ -19,7 +19,7 @@ unittest-main-with-dist:
 
 copy-to-webserver:
   image: ubuntu:24.04
-  stage: test
+  stage: deploy
   dependencies:
     - unittest-main-with-dist
   before_script:
