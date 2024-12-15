@@ -1,7 +1,7 @@
 {
   "site": {
-    "title": "Bookworm Light Astro | Blog Template",
-    "base_url": "https://bookworm-light-astro.vercel.app",
+    "title": "shiragiのページ | Blog ",
+    "base_url": "https://shiragi.www.mma.club.uec.ac.jp",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
