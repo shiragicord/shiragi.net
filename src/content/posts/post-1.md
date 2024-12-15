@@ -1,22 +1,116 @@
 ---
-title: "How to make toys from old Olarpaper"
-description: "meta description"
+title: "携帯電話番号を変えた話"
+description: "No description"
 date: 2022-04-01T05:00:00Z
-image: "/images/posts/01.jpg"
-categories: ["art"]
-authors: ["Mark Dinn"]
-tags: ["diy", "toy"]
+image: "/images/posts/01.png"
+categories: ["スマホ"]
+authors: ["shiragi"]
+tags: ["MVNO", "MNP"]
 draft: false
 ---
 
-Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
+> [MMA Advent Calendar 2024](https://adventar.org/calendars/10770) 16日目の記事です
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+## 事の経緯
 
-## Creative Design
+MVNOからMVNOへ，MNPで乗り換えようとしたら，どういうわけかミスしたみたいで，MNPではなく新しい電話番号がやってきました．
 
-Nam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
+記憶とクレカの請求明細によれば，確かにMNPで申し込んだはずですが，事実が事実ですので受け入れるしかありません．
 
-> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+## なぜわざわざ変えたのか
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
+MNPをミスった場合，主に以下の3つの選択肢が取れると思います．
+
+1. 新しい番号に乗り換えて，古い電話番号を解約
+
+1. 新しい番号を解約して古い電話番号を契約し続ける，またはMNPのやり直し
+
+1. デュアルSIMとして，どっちも使う
+
+私は今回，1. を選びました．理由は以下の通りです．
+
+- どっちも使うほどの維持費を払うメリットがない
+
+- 新しい番号を解約しちゃうと短期解約となって信用情報に傷がつきそう
+
+- 古い電話番号が，元カノがやんわりとストーキングしている疑いがある
+
+というわけで，面倒ではありますが，乗り換えることに決めました．
+
+## 乗換作業
+
+電話番号を変える場合，当然以下の乗換作業が必要です．
+
+電話番号を知らせている知人全員や勤務先に，電話番号が変わったことを通知
+
+電話番号を登録しているインターネットサービスの変更作業
+
+文面はシンプルですが，その大変さはよくよくご存知かと思います．
+
+私の場合，あまり電話番号を教えている人がいなかったので1. は比較的楽でした．
+
+しかし，問題は2.でした
+
+## 各種サービスの電話番号変更作業
+
+手持ちのパスワード手帳を確認したら，自分の持っているアカウント数が160以上もありました．
+
+もちろん，中には電話番号を登録していないものもあります．
+
+しかし，登録しているかしていないかわからないものが大半のため，ほとんど時短できず，片っ端から確認するしかありませんでした．Excelでチェックを点けながら，隙間時間に片っ端から確認しました．
+
+特に，銀行やクレジットカード，Amazonなどのお金が絡むアカウントや，Google, Microsoftなど，多くのアカウントが依存している重要なアカウントは念入りに確認しました．だいたいこういうアカウントは，登録時や情報変更時に二段階認証で古い電話番号が求められます．そのため，乗り換える際は，古い電話番号を残しておく必要があります．
+
+また，二段階認証でのSMS受信時は通信料が別途発生するので，そこら辺は覚悟したほうがいいと思います．
+
+ただ，中には非常に厄介なアカウントがありました．
+
+### dアカウントが厄介すぎた件
+
+ほとんどのアカウントは，古い電話番号と新しい電話番号がどっちも使えれば，認証の手続きを繰り返すだけでいいのです．
+
+しかし，天下のdアカウントは違いました．
+
+dアカウントは一応，dアニメストアの契約のために使っています．もともと，古い電話番号の時代にドコモからMVNOにMNPした名残に持っていました．しかし，dポイントの家族共有に関していろいろ問題があったため，私は今回，すでにあるdアカウントに新しい電話番号を登録するのではなく，新規にdアカウントを登録しようとしました．
+
+ところが，新しい電話番号で登録しようとしても，別のdアカウントに登録されていて新規契約できないとエラーが出るのです．
+
+![](/images/posts/01-1.webp)
+*登録できないというエラー画面*
+
+別のdアカウントに登録されているということは，おそらく，「新しい電話番号を，以前使っていた人がdアカウントを登録していた．」ことが考えられます．
+
+そのため，まず私はdocomoの総合窓口に電話をかけました．
+
+そしたら，「お客様がdアカウントをすでにもっているのに，持っていないと勘違いしている．」という前提の対応をされ，ショップにたらいまわしされたのです．後述しますが，この事例がレアケースであったことを考えれば，致し方ありません．
+
+それで，他社回線契約者にもかかわらず，ドコモショップに出向きました．しかし，ここでも「dアカウントを持っているのに勘違いしている」前提の対応をされかけました．ただ，対面サポートはいいですね．電話と違い，すぐにコミュニケーションが修正できて，私の状況が的確に伝わりました．対面ってすばらしい．
+
+しかし，30分ぐらい待たされて出た結論は，「レアケースすぎて対応に時間がかかる．ご予約いただければ，時間とお金を頂戴するかもだけどどうにかできるかも．」でした．私に非があるわけでもないのに，3,300円を払って対応してもらうのはさすがに違う気がしたので，断って帰りました．
+
+それで，この事例がレアケースであるという事情がわかったので，改めてdocomoの総合窓口に電話をかけ，より状況が的確に伝わるように伝え方を工夫しました．その甲斐あってか，やっと担当者に状況が伝わりました．しかし，保留音を長時間聞かされながら長時間待った後，別の担当者に切り替わって改めて状況を伝えたら，また「dアカウントを持っているのに勘違いしている」対応をされかけました😅
+
+正しく訂正した後，「対応に数日を要する」と言われたので待ちました．レアケースであることを踏まえれば仕方ありません．ただ，返答は即日に返ってきました．早かったです．結論として「ドコモショップで所定の手続きをすれば，ドコモ側で調査してアカウントの削除が可能．身分証と携帯電話が必要だが，手数料はかからない．」
+
+はい，またたらいまわしです．「手数料はかからない」は半ば信じていないのですが，仕方ないのでまたドコモショップに行きました．今度はしっかり予約しました．Webで予約をしようとしても，事前の質問に該当する項目がなくて予約できないので，電話の自動音声で予約しました．
+
+ショップに出向いて，事情を丁寧に確実に伝えた後，「センターに問い合わせする」と言われ，45分ぐらい待たされました．
+
+それで，案内されたのがdアカウントを復旧・調査する のページの内容でした．
+
+![](/images/posts/01-2.webp)
+https://id.smt.docomo.ne.jp/src/utility/jpki_recovery.html
+
+本来は，idもパスワードも忘れてしまったアカウントを復旧させるためのページのようですが，他人のdアカウントをはく奪するにはこれしかないとのこと．
+
+途中の確認事項でも他人のアカウントははく奪できないと書かれていてスタッフに疑いましたが，それしかないの一言．まあそうですね…
+
+ただ，電話サポートで言われてた通り，手数料はかかりませんでした．良かったです．
+
+この手続きには1週間程度かかるそうです．結果については後ほどここに追記します．
+
+## おわりに
+
+とにもかくにもめちゃくちゃ大変でした．よっぽどの理由がない限り，電話番号は変えないようにすることをお勧めします．加えて，MNPの手続きは，オンライン申し込みだとミスりがちです．念入りに確認しましょう．なんなら，ダブルチェックを導入するのもありです．
+
+~~じゃあクレカの明細はどういうことか….~~
