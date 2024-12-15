@@ -2,7 +2,7 @@
   "site": {
     "title": "shiragiのページ | Blog ",
     "base_url": "https://shiragi.www.mma.club.uec.ac.jp",
-    "base_path": "/",
+    "base_path": "/~shiragi/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
