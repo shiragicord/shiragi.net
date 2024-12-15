@@ -23,7 +23,7 @@ pages:
   dependencies:
     - unittest-main-with-dist
   script:
-    - mv dist/ public/
+    - cp -r dist/* public/
   artifacts:
     paths:
       - public/
