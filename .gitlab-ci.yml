@@ -3,7 +3,7 @@ stages:
     - test
     - deploy
 
-unittest-master-with-coverage:
+unittest-main-with-dist:
   image: node:latest
   stage: test
   script:
@@ -21,9 +21,9 @@ pages:
   image: ubuntu:24.04
   stage: deploy
   dependencies:
-    - unittest-master-with-coverage
+    - unittest-main-with-dist
   script:
-    - cp -r dist/ public/
+    - mv dist/ public/
   artifacts:
     paths:
       - public/
