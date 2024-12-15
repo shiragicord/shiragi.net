@@ -1,7 +1,7 @@
 # .gitlab-ci.yml
 stages:
     - test
-    - deploy
+    # - deploy
 
 unittest-main-with-dist:
   image: node:latest
@@ -17,17 +17,56 @@ unittest-main-with-dist:
       when: on_success
     - when: never
 
-pages:
+copy-to-webserver:
   image: ubuntu:24.04
-  stage: deploy
+  stage: test
   dependencies:
     - unittest-main-with-dist
+  before_script:
+    ##
+    ## Install ssh-agent if not already installed, it is required by Docker.
+    ## (change apt-get to yum if you use an RPM-based image)
+    ##
+    - 'command -v ssh-agent >/dev/null || ( apt-get update -y && apt-get install openssh-client -y )'
+    
+    ##
+    ## Run ssh-agent (inside the build environment)
+    ##
+    - eval $(ssh-agent -s)
+    
+    ##
+    ## Give the right permissions, otherwise ssh-add will refuse to add files
+    ## Add the SSH key stored in SSH_PRIVATE_KEY file type CI/CD variable to the agent store
+    ##
+    - chmod 400 "$SSH_PRIVATE_KEY"
+    - ssh-add "$SSH_PRIVATE_KEY"
+    
+    ##
+    ## Create the SSH directory and give it the right permissions
+    ##
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
   script:
-    - cp -r dist/* public/
+    - scp -r dist/* shiragi@webserver.lxd.saga:~/public_html/
   artifacts:
     paths:
-      - public/
+      - dist/
   rules:
     - if: '$CI_COMMIT_REF_NAME == "main"'
       when: on_success
     - when: never
+
+# pages:
+#   image: ubuntu:24.04
+#   stage: deploy
+#   dependencies:
+#     - unittest-main-with-dist
+#   script:
+#     - cp -r dist/* public/
+#   artifacts:
+#     paths:
+#       - public/
+#   rules:
+#     - if: '$CI_COMMIT_REF_NAME == "main"'
+#       when: on_success
+#     - when: never
