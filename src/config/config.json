@@ -1,11 +1,11 @@
 {
   "site": {
     "title": "shiragiのページ | Blog ",
-    "base_url": "https://shiragi.www.mma.club.uec.ac.jp",
+    "base_url": "https://www.mma.club.uec.ac.jp",
     "base_path": "/~shiragi/",
     "trailing_slash": false,
-    "favicon": "/images/favicon.png",
-    "logo": "/images/logo.png",
+    "favicon": "/~shiragi/images/favicon.png",
+    "logo": "/~shiragi/images/logo.png",
     "logo_width": "200",
     "logo_height": "34",
     "logo_text": "Bookworm Light"
@@ -18,7 +18,7 @@
 
   "metadata": {
     "meta_author": "Themefisher",
-    "meta_image": "/images/og-image.png",
+    "meta_image": "/~shiragi/images/og-image.png",
     "meta_description": "Bookworm Light Astro Blog Template"
   },
 

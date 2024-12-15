@@ -1,15 +1,15 @@
 ---
 title: "携帯電話番号を変えた話"
-description: "No description"
-date: 2022-04-01T05:00:00Z
-image: "/images/posts/01.png"
+description: "shiragiのブログ"
+date: 2024-12-15T23:41:03+09:00
+image: "/~shiragi/images/posts/01.png"
 categories: ["スマホ"]
 authors: ["shiragi"]
 tags: ["MVNO", "MNP"]
 draft: false
 ---
 
-> [MMA Advent Calendar 2024](https://adventar.org/calendars/10770) 16日目の記事です
+[MMA Advent Calendar 2024](https://adventar.org/calendars/10770) 16日目の記事です
 
 ## 事の経緯
 
@@ -53,13 +53,13 @@ MNPをミスった場合，主に以下の3つの選択肢が取れると思い�
 
 ## 各種サービスの電話番号変更作業
 
-手持ちのパスワード手帳を確認したら，自分の持っているアカウント数が160以上もありました．
+手持ちのパスワード手帳を確認したら，自分の持っているアカウント数が**160以上**もありました．
 
 もちろん，中には電話番号を登録していないものもあります．
 
 しかし，登録しているかしていないかわからないものが大半のため，ほとんど時短できず，片っ端から確認するしかありませんでした．Excelでチェックを点けながら，隙間時間に片っ端から確認しました．
 
-特に，銀行やクレジットカード，Amazonなどのお金が絡むアカウントや，Google, Microsoftなど，多くのアカウントが依存している重要なアカウントは念入りに確認しました．だいたいこういうアカウントは，登録時や情報変更時に二段階認証で古い電話番号が求められます．そのため，乗り換える際は，古い電話番号を残しておく必要があります．
+特に，銀行やクレジットカード，Amazonなどのお金が絡むアカウントや，Google, Microsoftなど，多くのアカウントが依存している重要なアカウントは念入りに確認しました．だいたいこういうアカウントは，登録時や情報変更時に二段階認証で古い電話番号が求められます．そのため，乗り換える際は，**古い電話番号を残しておく必要があります．**
 
 また，二段階認証でのSMS受信時は通信料が別途発生するので，そこら辺は覚悟したほうがいいと思います．
 
@@ -75,8 +75,10 @@ dアカウントは一応，dアニメストアの契約のために使ってい
 
 ところが，新しい電話番号で登録しようとしても，別のdアカウントに登録されていて新規契約できないとエラーが出るのです．
 
-![](/images/posts/01-1.webp)
-*登録できないというエラー画面*
+<div style="display: flex;justify-content: center;flex-direction: column;align-items: center;">
+<img src="/~shiragi/images/posts/01-1.webp" width="50%" height="50%">
+登録できないというエラー画面
+</div>
 
 別のdアカウントに登録されているということは，おそらく，「新しい電話番号を，以前使っていた人がdアカウントを登録していた．」ことが考えられます．
 
@@ -96,10 +98,12 @@ dアカウントは一応，dアニメストアの契約のために使ってい
 
 ショップに出向いて，事情を丁寧に確実に伝えた後，「センターに問い合わせする」と言われ，45分ぐらい待たされました．
 
-それで，案内されたのがdアカウントを復旧・調査する のページの内容でした．
+それで，案内されたのが[dアカウントを復旧・調査する](https://id.smt.docomo.ne.jp/src/utility/jpki_recovery.html) のページの内容でした．
 
-![](/images/posts/01-2.webp)
-https://id.smt.docomo.ne.jp/src/utility/jpki_recovery.html
+<div style="display: flex;justify-content: center;flex-direction: column;align-items: center;">
+<img src="/~shiragi/images/posts/01-2.webp">
+<a href="https://id.smt.docomo.ne.jp/src/utility/jpki_recovery.html">https://id.smt.docomo.ne.jp/src/utility/jpki_recovery.html</a>
+</div>
 
 本来は，idもパスワードも忘れてしまったアカウントを復旧させるためのページのようですが，他人のdアカウントをはく奪するにはこれしかないとのこと．
 

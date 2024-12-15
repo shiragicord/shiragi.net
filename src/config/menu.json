@@ -2,11 +2,11 @@
   "main": [
     {
       "name": "Home",
-      "url": "/"
+      "url": "/~shiragi"
     },
     {
       "name": "About",
-      "url": "/about"
+      "url": "/~shiragi/about"
     },
     {
       "name": "Pages",
@@ -15,11 +15,11 @@
       "children": [
         {
           "name": "Categories",
-          "url": "/categories"
+          "url": "/~shiragi/categories"
         },
         {
           "name": "Tags",
-          "url": "/tags"
+          "url": "/~shiragi/tags"
         }
       ]
     }
@@ -27,7 +27,7 @@
   "footer": [
     {
       "name": "About",
-      "url": "/about"
+      "url": "/~shiragi/about"
     }
   ]
 }
