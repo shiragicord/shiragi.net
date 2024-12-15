@@ -3,7 +3,7 @@ stages:
     - build
     - deploy
 
-unittest-main-with-dist:
+npm-build:
   image: node:latest
   stage: build
   script:
@@ -21,7 +21,7 @@ copy-to-webserver:
   image: ubuntu:24.04
   stage: deploy
   dependencies:
-    - unittest-main-with-dist
+    - npm-build
   before_script:
     ##
     ## Install ssh-agent if not already installed, it is required by Docker.
