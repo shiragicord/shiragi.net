@@ -47,6 +47,7 @@ copy-to-webserver:
     - mkdir -p ~/.ssh
     - chmod 700 ~/.ssh
   script:
+    - ssh-keyscan webserver.lxd.saga
     - scp -r dist/* shiragi@webserver.lxd.saga:~/public_html/
   artifacts:
     paths:
