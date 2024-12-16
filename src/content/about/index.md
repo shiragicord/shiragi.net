@@ -11,4 +11,6 @@ what_i_do:
     description: "整備中"
 ---
 
-整備中
+このWebサイトは[Astro.js](https://astro.build/)でビルドされました．
+
+Webサイトの一部で[Bookworm Light Astro](https://github.com/themefisher/bookworm-light-astro)を使用しています．
