@@ -15,13 +15,15 @@ what_i_do:
 | 職業  | 大学生 |
 | 所属  | 電気通信大学 情報理工学域 |
 | 所属サークル | [MMA](https://mma.club.uec.ac.jp/) |
-| Twitter | [@shiragic0rd](https://x.com/shiragic0rd) |
+| X (旧 Twitter) | [@shiragic0rd](https://x.com/shiragic0rd) |
 | GitHub | [shiragicord](https://github.com/shiragicord) |
+| Zenn | [zenn.dev/shiragi](https://zenn.dev/shiragi) |
 
 セキュリティが取り柄ですが，なぜかMMAのサーバー管理をしています．
 UbuntuやCiscoをたくさん触っています．
 
-言語経験値もそれなりにありますが，MMAではあまり活きていません．
+言語経験値もJavaとPythonがそれなりにありますが，MMAではあまり活きていません．
+かつてはAndroid (開発)をよく触っていました．
 
 趣味はゲームです．\
 ソシャゲはスターレイルと原神，\
