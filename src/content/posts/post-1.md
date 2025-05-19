@@ -2,7 +2,7 @@
 title: "携帯電話番号を変えた話"
 description: "shiragiのブログ"
 date: 2024-12-15T23:41:03+09:00
-image: "/~shiragi/images/posts/01.png"
+image: "/images/posts/01.png"
 categories: ["スマホ"]
 authors: ["shiragi"]
 tags: ["MVNO", "MNP"]
@@ -76,7 +76,7 @@ dアカウントは一応，dアニメストアの契約のために使ってい
 ところが，新しい電話番号で登録しようとしても，別のdアカウントに登録されていて新規契約できないとエラーが出るのです．
 
 <div style="display: flex;justify-content: center;flex-direction: column;align-items: center;">
-<img src="/~shiragi/images/posts/01-1.webp" width="50%" height="50%">
+<img src="/images/posts/01-1.webp" width="50%" height="50%">
 登録できないというエラー画面
 </div>
 
@@ -101,7 +101,7 @@ dアカウントは一応，dアニメストアの契約のために使ってい
 それで，案内されたのが[dアカウントを復旧・調査する](https://id.smt.docomo.ne.jp/src/utility/jpki_recovery.html) のページの内容でした．
 
 <div style="display: flex;justify-content: center;flex-direction: column;align-items: center;">
-<img src="/~shiragi/images/posts/01-2.webp">
+<img src="/images/posts/01-2.webp">
 <a href="https://id.smt.docomo.ne.jp/src/utility/jpki_recovery.html">https://id.smt.docomo.ne.jp/src/utility/jpki_recovery.html</a>
 </div>
 
@@ -114,7 +114,7 @@ dアカウントは一応，dアニメストアの契約のために使ってい
 ~~この手続きには1週間程度かかるそうです．結果については後ほどここに追記します．~~
 
 ### 追記
-![](/~shiragi/images/posts/01-3.png)
+![](/images/posts/01-3.png)
 
 **知ってた**
 

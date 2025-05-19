@@ -25,7 +25,7 @@ SamsungのGalaxyシリーズならSamsung Music（端末内では"Galaxy Music"�
 
 ### Samsung Musicはよかった
 <div style="display: flex;justify-content: center;flex-direction: column;align-items: center;">
-<img src="/~shiragi/images/posts/02-1.webp" width="50%" height="50%">
+<img src="/images/posts/02-1.webp" width="50%" height="50%">
 Samsung Musicの画面
 </div>
 
@@ -74,7 +74,7 @@ Samsung Musicの画面
 ## YouTube Music
 
 <div style="display: flex;justify-content: center;flex-direction: column;align-items: center;">
-<img src="/~shiragi/images/posts/02-2.webp" width="50%" height="50%">
+<img src="/images/posts/02-2.webp" width="50%" height="50%">
 YouTube Musicデザインはきれい
 </div>
 
@@ -86,7 +86,7 @@ YouTube Musicデザインはきれい
 
 それは，アプリ起動時に毎回毎回ロード時間がかかることです．
 <div style="display: flex;justify-content: center;flex-direction: column;align-items: center;">
-<img src="/~shiragi/images/posts/02-3.webp" width="50%" height="50%">
+<img src="/images/posts/02-3.webp" width="50%" height="50%">
 毎回このクルクルの画面を見る
 </div>
 
@@ -94,7 +94,7 @@ YouTube Musicデザインはきれい
 
 ## Simple Music Player
 <div style="display: flex;justify-content: center;flex-direction: column;align-items: center;">
-<img src="/~shiragi/images/posts/02-4.webp" width="50%" height="50%">
+<img src="/images/posts/02-4.webp" width="50%" height="50%">
 Simple Music Playerの画面
 </div>
 
@@ -107,7 +107,7 @@ Simple Music Playerの画面
 しかし，欠点がありました．それは，一部ファイル形式(Oggなど)のアルバムジャケットが読み取り出来ていないことです．
 
 <div style="display: flex;justify-content: center;flex-direction: column;align-items: center;">
-<img src="/~shiragi/images/posts/02-5.webp" width="50%" height="50%">
+<img src="/images/posts/02-5.webp" width="50%" height="50%">
 このアルバム，本当は全曲にアルバムジャケットがあるのですが…
 </div>
 
@@ -115,7 +115,7 @@ Simple Music Playerの画面
 
 ## Retro Music
 <div style="display: flex;justify-content: center;flex-direction: column;align-items: center;">
-<img src="/~shiragi/images/posts/02-6.webp" width="50%" height="50%">
+<img src="/images/posts/02-6.webp" width="50%" height="50%">
 Retro Musicの画面
 </div>
 
@@ -128,7 +128,7 @@ Retro Music Playerは，F-Droid版の場合，Google Play版のPro機能がす�
 しかし，このアプリにも欠点がありました．
 
 <div style="display: flex;justify-content: center;flex-direction: column;align-items: center;">
-<img src="/~shiragi/images/posts/02-7.webp" width="50%" height="50%">
+<img src="/images/posts/02-7.webp" width="50%" height="50%">
 ボタン押しても再生できない…
 </div>
 
@@ -141,7 +141,7 @@ Retro Music Playerは，F-Droid版の場合，Google Play版のPro機能がす�
 
 ## Musicolot
 <div style="display: flex;justify-content: center;flex-direction: column;align-items: center;">
-<img src="/~shiragi/images/posts/02-8.png" width="50%" height="50%">
+<img src="/images/posts/02-8.png" width="50%" height="50%">
 Musicolotの画面
 </div>
 
@@ -154,7 +154,7 @@ GoogleでAndroid向け音楽アプリを探していると，いつも人気の�
 とにかくいろいろ高機能だったのです．特に私が気に入ったのはこのロック画面専用コントローラーでした．
 
 <div style="display: flex;justify-content: center;flex-direction: column;align-items: center;">
-<img src="/~shiragi/images/posts/02-9.png" width="50%" height="50%">
+<img src="/images/posts/02-9.png" width="50%" height="50%">
 ロック画面で表示されるコントローラー
 </div>
 

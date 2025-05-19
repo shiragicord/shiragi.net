@@ -13,7 +13,10 @@ for (let i = 1; i <= totalPages; i++) {
 
 {
   totalPages > 1 && (
-    <nav class="mb-4 flex justify-center space-x-2 text-center" aria-label="Pagination">
+    <nav
+      class="mb-4 flex justify-center space-x-2 text-center"
+      aria-label="Pagination"
+    >
       {/* previous */}
       {hasPrevPage ? (
         <a
@@ -71,21 +74,21 @@ for (let i = 1; i <= totalPages; i++) {
           <a
             href={
               i === 0
-                ? `${section ? "/~shiragi/" + section : "/~shiragi/"}`
-                : `${section ? "/~shiragi/" + section : "/~shiragi"}/page/${pagination}`
+                ? `${section ? "/" + section : "/"}`
+                : `${section ? "/" + section : "/~shiragi"}/page/${pagination}`
             }
             aria-current="page"
             class={`border border-primary hover:bg-primary hover:text-white rounded-md h-10 w-10 leading-[36px] font-semibold text-dark flex items-center justify-center transition duration-200`}
           >
             {pagination}
           </a>
-        )
+        ),
       )}
 
       {/* next page */}
       {hasNextPage ? (
         <a
-          href={`${section ? "/~shiragi/" + section : "/~shiragi"}/page/${currentPage + 1}`}
+          href={`${section ? "/" + section : "/~shiragi"}/page/${currentPage + 1}`}
           class="border border-primary hover:bg-primary hover:text-white rounded-md h-10 w-10 leading-[36px] font-semibold text-dark flex items-center justify-center transition duration-200"
         >
           <span class="sr-only">Next</span>

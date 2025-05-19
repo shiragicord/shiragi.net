@@ -1,7 +1,7 @@
 ---
 title: "shiragi"
 meta_title: "About"
-image: "/~shiragi/images/author.png"
+image: "/images/author.png"
 draft: false
 
 what_i_do:

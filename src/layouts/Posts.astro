@@ -18,7 +18,7 @@ const { className, posts, fluid } = Astro.props;
       <div class={i === 0 && fluid != false ? "col-12" : "col-12 sm:col-6"}>
         {post.data.image && (
           <a
-            href={`/~shiragi/${post.slug}`}
+            href={`/${post.slug}`}
             class="rounded-lg block hover:text-primary overflow-hidden group"
           >
             <Image
@@ -36,11 +36,11 @@ const { className, posts, fluid } = Astro.props;
               .filter((author) =>
                 post.data.authors
                   .map((author: string) => slugify(author))
-                  .includes(slugify(author.data.title))
+                  .includes(slugify(author.data.title)),
               )
               .map((author) => (
                 <a
-                  href={`/~shiragi/authors/${slugify(author.data.title)}`}
+                  href={`/authors/${slugify(author.data.title)}`}
                   class="flex items-center hover:text-primary font-medium"
                 >
                   {author.data.image && (
@@ -67,7 +67,7 @@ const { className, posts, fluid } = Astro.props;
                 {post.data.categories.map((category: string, i: number) => (
                   <li class="inline-block">
                     <a
-                      href={`/~shiragi/categories/${slugify(category)}`}
+                      href={`/categories/${slugify(category)}`}
                       class="mr-2 hover:text-primary font-medium"
                     >
                       {humanize(category)}
@@ -81,7 +81,7 @@ const { className, posts, fluid } = Astro.props;
         </ul>
         <h3 class="mb-4">
           <a
-            href={`/~shiragi/${post.slug}`}
+            href={`/${post.slug}`}
             class="block hover:text-primary transition duration-300"
           >
             {post.data.title}
@@ -92,9 +92,9 @@ const { className, posts, fluid } = Astro.props;
             post.body?.slice(
               0,
               Number(
-                i === 0 && fluid != false ? summary_length * 2 : summary_length
-              )
-            )
+                i === 0 && fluid != false ? summary_length * 2 : summary_length,
+              ),
+            ),
           )}
           ...
         </p>

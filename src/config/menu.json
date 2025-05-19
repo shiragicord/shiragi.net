@@ -6,7 +6,7 @@
     },
     {
       "name": "About",
-      "url": "/~shiragi/about"
+      "url": "/about"
     },
     {
       "name": "Pages",
@@ -15,11 +15,11 @@
       "children": [
         {
           "name": "Categories",
-          "url": "/~shiragi/categories"
+          "url": "/categories"
         },
         {
           "name": "Tags",
-          "url": "/~shiragi/tags"
+          "url": "/tags"
         }
       ]
     }
@@ -27,7 +27,7 @@
   "footer": [
     {
       "name": "About",
-      "url": "/~shiragi/about"
+      "url": "/about"
     }
   ]
 }
