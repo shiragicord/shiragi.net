@@ -1,7 +1,5 @@
-# shiragiのページ
-https://www.mma.club.uec.ac.jp/~shiragi
-
-にホスティングされています．
+# shiragi's Blog Page
+https://shiragi.net
 
 <!-- installation -->
 ## 🔧Installation
@@ -40,10 +38,6 @@ npm run build
 
 <!-- licence -->
 ## License
-
-### .gitlab-ci.yml
-
-MIT ライセンスです．詳しくは[当該ファイル](.gitlab-ci.yml)をご参照ください．
 
 ### src/content/配下，およびpublic/配下の全ファイル
 
