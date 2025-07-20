@@ -25,7 +25,7 @@ UbuntuやCiscoをたくさん触っています．
 
 ### Skills
 
-[![My Skills](https://skillicons.dev/icons?i=astro,bash,c,cs,cpp,java,py,css,html,php,js,ts,jquery,tailwind,cloudflare,ubuntu,kali,debian,linux,nginx,discord,docker,dotnet,elasticsearch,fastapi,git,github,githubactions,gitlab,androidstudio,idea,gradle,latex,nextjs,nodejs,notion,npm,postgres,sqlite,powershell,raspberrypi,redis,regex,visualstudio,vscode,)](https://skillicons.dev)
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=astro,bash,c,cs,cpp,java,py,css,html,php,js,ts,jquery,tailwind,cloudflare,ubuntu,kali,debian,linux,nginx,discord,docker,dotnet,elasticsearch,fastapi,git,github,githubactions,gitlab,androidstudio,idea,gradle,latex,nextjs,nodejs,notion,npm,postgres,sqlite,powershell,raspberrypi,redis,regex,visualstudio,vscode," alt="My Skills" style="margin: 0;"></a>
 
 ### Licenses
 
