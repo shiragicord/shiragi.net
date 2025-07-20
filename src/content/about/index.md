@@ -20,17 +20,26 @@ what_i_do:
 | GitHub         | [shiragicord](https://github.com/shiragicord) |
 | Zenn           | [zenn.dev/shiragi](https://zenn.dev/shiragi)  |
 
-セキュリティが取り柄ですが，なぜかMMAのサーバー管理をしています．
+セキュリティが取り柄ですが，なぜかMMAのサーバー管理をしています．  
 UbuntuやCiscoをたくさん触っています．
 
-言語経験値もJavaとPythonがそれなりにありますが，MMAではあまり活きていません．
-かつてはAndroid (開発)をよく触っていました．
+### Skills
 
-趣味はゲームです．\
-ソシャゲはスターレイルと原神，\
-コンシューマーはマリオシリーズ，\
-アーケードはチュウニズム，\
-あと麻雀をやっています．
+[![My Skills](https://skillicons.dev/icons?i=astro,bash,c,cs,cpp,java,py,css,html,php,js,ts,jquery,tailwind,cloudflare,ubuntu,kali,debian,linux,nginx,discord,docker,dotnet,elasticsearch,fastapi,git,github,githubactions,gitlab,androidstudio,idea,gradle,latex,nextjs,nodejs,notion,npm,postgres,sqlite,powershell,raspberrypi,redis,regex,visualstudio,vscode,)](https://skillicons.dev)
+
+### Licenses
+
+- 応用情報技術者試験 合格
+- 普通自動車第一種運転免許
+
+### Hobby
+
+主にゲーム
+
+- ソシャゲ:スターレイル
+- コンシューマー: マリオシリーズ
+- アーケード: チュウニズム
+- 麻雀
 
 ゲームIQはTier 3ぐらいですが，エンジョイ精神貫いてます．
 
@@ -38,4 +47,9 @@ UbuntuやCiscoをたくさん触っています．
 
 このWebサイトは[Astro.js](https://astro.build/)でビルドされました．
 
+[Cloudflare](https://www.cloudflare.com/ja-jp/developer-platform/products/pages/)でホスティングしています．
+
 Webサイトの一部で[Bookworm Light Astro](https://github.com/themefisher/bookworm-light-astro)を使用しています．
+
+![CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/88x31.png)  
+当Webサイトのコンテンツは，すべて[CC BY-SA 4.0 ライセンス](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)で提供されます．
