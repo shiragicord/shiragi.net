@@ -7,17 +7,18 @@ draft: false
 what_i_do:
   title: "整備中"
   items:
-  - title: "整備中"
-    description: "整備中"
+    - title: "整備中"
+      description: "整備中"
 ---
-| Key | Value |
-| :-- | :---------- |
-| 職業  | 大学生 |
-| 所属  | 電気通信大学 情報理工学域 |
-| 所属サークル | [MMA](https://mma.club.uec.ac.jp/) |
-| X (旧 Twitter) | [@shiragic0rd](https://x.com/shiragic0rd) |
-| GitHub | [shiragicord](https://github.com/shiragicord) |
-| Zenn | [zenn.dev/shiragi](https://zenn.dev/shiragi) |
+
+| Key            | Value                                         |
+| :------------- | :-------------------------------------------- |
+| 職業           | 大学生                                        |
+| 所属           | 電気通信大学 情報理工学域                     |
+| サークル       | [MMA](https://mma.club.uec.ac.jp/)            |
+| X (旧 Twitter) | [@shiragic0rd](https://x.com/shiragic0rd)     |
+| GitHub         | [shiragicord](https://github.com/shiragicord) |
+| Zenn           | [zenn.dev/shiragi](https://zenn.dev/shiragi)  |
 
 セキュリティが取り柄ですが，なぜかMMAのサーバー管理をしています．
 UbuntuやCiscoをたくさん触っています．

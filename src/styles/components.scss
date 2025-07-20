@@ -67,6 +67,19 @@
   }
 }
 
+.social-icons-simple-large {
+  @apply space-x-4;
+  li {
+    @apply inline-block;
+    a {
+      @apply block p-3 text-dark transition hover:text-primary;
+      svg {
+        @apply text-3xl;
+      }
+    }
+  }
+}
+
 .social-share {
   @apply space-x-1;
   li {
