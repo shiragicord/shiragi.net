@@ -9,10 +9,14 @@
       "url": "/about"
     },
     {
-      "name": "Pages",
-      "url": "",
+      "name": "Blog",
+      "url": "/posts",
       "hasChildren": true,
       "children": [
+        {
+          "name": "Posts",
+          "url": "/posts"
+        },
         {
           "name": "Categories",
           "url": "/categories"
