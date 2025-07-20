@@ -4,4 +4,5 @@ Content-Security-Policy: default-src 'self'; img-src 'self' https://skillicons.d
 Permissions-Policy: camera=(), microphone=(), geolocation=(), fullscreen=(), payment=(), usb=()
 
 /search/*
-! Content-Security-Policy: default-src 'self'; img-src 'self' https://skillicons.dev/ https://licensebuttons.net/;font-src 'self' fonts.gstatic.com; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline';
+! Content-Security-Policy
+Content-Security-Policy: default-src 'self'; img-src 'self' https://skillicons.dev/ https://licensebuttons.net/;font-src 'self' fonts.gstatic.com; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline';
