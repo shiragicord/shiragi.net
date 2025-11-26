@@ -1,5 +1,5 @@
 {
-  "name": "shiragi.net",
+  "name": "shiragi-net",
   "compatibility_date": "2025-11-26", // Update to the day you deploy
   "compatibility_flags": [
     "nodejs_compat",
