@@ -1,14 +1,15 @@
-### Keybase proof
+==================================================================
+https://keybase.io/shiragi
+--------------------------------------------------------------------
 
 I hereby claim:
 
-  * I am shiragicord on github.
+  * I am an admin of https://shiragi.net
   * I am shiragi (https://keybase.io/shiragi) on keybase.
-  * I have a public key whose fingerprint is 5602 ACC1 BB17 49DC 0690  BE74 FBDE 89B1 3AB4 BB8B
+  * I have a public key with fingerprint 5602 ACC1 BB17 49DC 0690  BE74 FBDE 89B1 3AB4 BB8B
 
-To claim this, I am signing this object:
+To do so, I am signing this object:
 
-```json
 {
   "body": {
     "key": {
@@ -21,59 +22,47 @@ To claim this, I am signing this object:
       "username": "shiragi"
     },
     "service": {
-      "name": "github",
-      "username": "shiragicord"
+      "hostname": "shiragi.net",
+      "protocol": "https:"
     },
     "type": "web_service_binding",
     "version": 1
   },
-  "ctime": 1764914319,
+  "ctime": 1764914426,
   "expire_in": 157680000,
-  "prev": "4dd3d23969b4cfa1d03958ad0de527076469a8587d42ed0b28d33115c83a3ebf",
-  "seqno": 11,
+  "prev": "7a0fbad15b9678daaf1e1cf23847a9cfbbf8d2f45728063be737ea0e2d711af5",
+  "seqno": 13,
   "tag": "signature"
 }
-```
 
-with the key [5602 ACC1 BB17 49DC 0690  BE74 FBDE 89B1 3AB4 BB8B](https://keybase.io/shiragi), yielding the signature:
+which yields the signature:
 
-```
 -----BEGIN PGP MESSAGE-----
 Version: Keybase OpenPGP v2.1.17
 Comment: https://keybase.io/crypto
 
-yMIaAnicrZJZSFVBGMevS0XajpGJUJ0ISi5x5mxzxqzQhxZCokQIM24zZ+ZcD+q5
-13OXuopkVFaUbdCC4UNdiCLKl8xovy6BWlqatCD0EikR2CIVLdYcqbcem5dhvvn/
-/vy/j69jeoonLSkncfrsgpLTGUk9iRMRjyWFj9YIJEBjQm6NUM4mLlZBWSjsK7eo
-kCuIQASaiIBGkQ5NU9QkaMpINaABdUmEOjENookS0qnGuFAFyFQUCJimSyYgAOgE
-GyIWvIJp2X7mBB3LDnNblTPYMAAhACqIGqKGRMKgYhLKdESAjIlCiE44WBYIuQQP
-R3CILbcCvMYfvol4/9D/59yRCTvITM3EBCOeWmcKVCRRVmQVqRpkBAPkCkPMsXEl
-4+pQmeVgvyXUegVejFoGc+f659Nvhcsi5J+AEXCoC4VjQbe6gxHfH95HLJvyCXIs
-ypyQFbCFXMCVRthyDQDUFAQUGSCvwHYGLYf5LFehQk0X+fEKQYdFuaVCqUwlGWmI
-KIaJARX5UHRMRcpUCYrcRkNYV3VIFYlRkUg6lWUAVEOXscyIKbgdVdkB7g14Tux3
-w1t+G4cjDhNq2+6XpnqS0jyTJyW7q+VJmzrr78J9fz/lV+Ho+fZTfdrmge3Hn2ZV
-HinYn9pYAM6v2fUqHhpOn3nsRUFWfv/uE0+Sr2U0tXSHDjZdXroq84g5rezCpD39
-vs71J5Pl2Oy78ZaUzK+H8m9drX6cv2dO3W1vfeu+xJykuEo3Dke3dK0Y3/zDeHd9
-b+m05LcvB3dvHH3ezR7E0uf+vBMYzF6VZVev6yxZZLcdmjGy8kOj52dvfGg4e0ND
-rCVv3cWuzsOfltTiS70N8fbXzx6V9BQvzOno7du6orl1UzOYtwyeG/sy9i34cDUo
-+i4fUAebpn9+M1RXXxjJnp93RVqyuH5b70DFmbj58ea2L8pYSnl7VdHYjnvjIxV1
-uxoSecU31v4GdwdB8Q==
-=mSwY
+yMIeAnicrVJdSBRBHL/LvjSkT83soVqTUsRm9nZ3dq+PJxOjgoIgOYJjZnfmbkl3
+17099bKLIHwo6EEs+7AgMukbClPqyUoz4jAi7PCh6CEqQgzKh0TibFbqIeixeRnm
+P7/fb36///yHC/MCBcHKJ+e610XOrQpmnnQlA6bozbQJxDZSQrhNOEznNtpg0IQX
+PWwaQlgAEEAFaFAxNBUxBhQRsZAm60hHqgiQSphOFCBqqqFQDpShxiQJQaqoIoME
+QpVgHWChSmCmFaOu45qWx2VlzsG6DgmBSNIMHSgaIBRJjBhU1QgMYSIRohJOjNsJ
+n8HNEZyg1abNa/wQnbP3D/x/9p2ck0OUKQwTrHHXKpWQJIKQFJI1WUGUYKj5wAR1
+LdxIOToRN10cM4V0lcCLzaZO/b76Qf4GVFvU40zHtT1btxv4RdzznETYJ3opx0e2
+UBL9rRElpmXwLnJGM3UTpm0JYciRumf6ohApkgYlSVSqBNrqmC6Nmj5CRooK+PLf
+oc1+FgwYwQaUiaYg1cCYQQp1JoZUCWFNZ4Qw1RCZJCNRBUqIf0sIUQyoaCAIMZMF
+P1WTZXPtEPeJY34gM2ZhL+lSIf308aH5gWBBYOGCef54BQryl/0ZurV7F+XKnoV7
+Pn7IdXhJfK9kRe+QuiP77s2rmrq+5c6RzoXO2dNltXV2SawoveTO++c7b4+UztQd
+ONi4RZqtbBubvDaUfnRKu7D5c/XPPTfLF5/ugOMM3HVGR5pSmfwIGhisqC1a3TG1
+pfVHzVuzeEmi+GLvhuONE98v5N529a/v6s67uHX/rrK+k1fCkaniXedLXw7ckmaT
+2dQacD8jLa2E0yc6w9rJ+PVI/US5M3Hjw9Hx2cm8sU/br0xmxW2jeZ5c0d5fHyRd
+LyLDxyLdG0HL7pdm/GtT90rvcuGXE5mrYs+3M+0PHi5rr309uHU4mk2dPVOTK9nU
+eWnkKdw3XBicHlr5Cz8tPxM=
+=qo1q
 -----END PGP MESSAGE-----
 
-```
+And finally, I am proving ownership of this host by posting or
+appending to this document.
 
-And finally, I am proving ownership of the github account by posting this as a gist.
+View my publicly-auditable identity here: https://keybase.io/shiragi
 
-### My publicly-auditable identity:
-
-https://keybase.io/shiragi
-
-### From the command line:
-
-Consider the [keybase command line program](https://keybase.io/download).
-
-```bash
-# look me up
-keybase id shiragi
-```
+==================================================================
