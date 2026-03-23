@@ -1,6 +1,6 @@
 export interface TAuthor {
   id: string;
-  slug: string;
+  slug?: string;
   body: string;
   collection: string;
   data: {
@@ -18,7 +18,7 @@ export interface TAuthor {
 
 export interface TPost {
   id: string;
-  slug: string;
+  slug?: string;
   body: string;
   collection: string;
   data: {
