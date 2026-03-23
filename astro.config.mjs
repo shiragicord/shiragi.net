@@ -6,8 +6,6 @@ import remarkCollapse from "remark-collapse";
 import remarkToc from "remark-toc";
 import config from "./src/config/config.json";
 
-import cloudflare from "@astrojs/cloudflare";
-
 // https://astro.build/config
 export default defineConfig({
   site: config.site.base_url ? config.site.base_url : "http://examplesite.com",
@@ -38,5 +36,4 @@ export default defineConfig({
     extendDefaultPlugins: true,
   },
 
-  adapter: cloudflare(),
 });
