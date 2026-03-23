@@ -23,4 +23,7 @@ yarn.lock
 # ignore .astro directory
 .astro
 
+# wrangler local/deploy metadata
+.wrangler/
+
 ~shiragi
