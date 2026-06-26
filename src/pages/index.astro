@@ -25,12 +25,12 @@ const { title, meta_title, description, image } = author?.data ?? {
     <img
       src={image}
       alt="Profile"
-      class="w-40 h-40 rounded-full object-cover shadow-lg mb-8 bg-gray-100"
+      class="w-40 h-40 rounded-full object-cover shadow-lg mb-8 bg-theme-light"
     />
     <h1 class="text-2xl page-heading h2 mb-8">
       {title}
     </h1>
-    <div class="text-lg text-gray-600 mb-8 text-center">{description}</div>
+    <div class="text-lg text-text mb-8 text-center">{description}</div>
     <div class="flex gap-8 mt-4">
       <Social source={social} className="social-icons-simple-large" />
     </div>

@@ -1,3 +1,32 @@
+/* Color tokens are mirrored in tailwind.config.js as CSS variables. */
+:root {
+  color-scheme: light;
+  --color-primary: #01ad9f;
+  --color-secondary: #747577;
+  --color-body: #fff;
+  --color-border: #d5d5d5;
+  --color-theme-light: #fafafa;
+  --color-theme-dark: #152035;
+  --color-text: #747577;
+  --color-dark: #152035;
+  --color-light: #a1a5ae;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --color-primary: #01ad9f;
+    --color-secondary: #cbd5e1;
+    --color-body: #181a1b;
+    --color-border: #334155;
+    --color-theme-light: #1e293b;
+    --color-theme-dark: #020617;
+    --color-text: #cbd5e1;
+    --color-dark: #f8fafc;
+    --color-light: #94a3b8;
+  }
+}
+
 html {
   @apply text-base;
 }

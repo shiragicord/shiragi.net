@@ -4,32 +4,42 @@ import config from "@/config/config.json";
 const { src } = Astro.props;
 const {
   logo,
+  logo_dark,
   logo_width,
   logo_height,
   logo_text,
   title,
 }: {
   logo: string;
+  logo_dark?: string;
   logo_width: any;
   logo_height: any;
   logo_text: string;
   title: string;
 } = config.site;
+
+const logoSrc = src ? src : logo;
+const darkLogoSrc = src ? undefined : logo_dark;
 ---
 
 <a href="/" class="navbar-brand block">
   {
-    src || logo ? (
-      <Image
-        width={logo_width.replace("px", "") * 2}
-        height={logo_height.replace("px", "") * 2}
-        src={src ? src : logo}
-        alt={title}
-        style={{
-          height: logo_height.replace("px", "") + "px",
-          width: logo_width.replace("px", "") + "px",
-        }}
-      />
+    logoSrc ? (
+      <picture>
+        {darkLogoSrc && (
+          <source media="(prefers-color-scheme: dark)" srcset={darkLogoSrc} />
+        )}
+        <Image
+          width={logo_width.replace("px", "") * 2}
+          height={logo_height.replace("px", "") * 2}
+          src={logoSrc}
+          alt={title}
+          style={{
+            height: logo_height.replace("px", "") + "px",
+            width: logo_width.replace("px", "") + "px",
+          }}
+        />
+      </picture>
     ) : logo_text ? (
       logo_text
     ) : (
